@@ -102,7 +102,8 @@ Harsh
 Sample Output 1
 
 26.50
-
+Language
+Python 3
 More
 123456789101112131415161718192021
 '''A very simple and efficient approach in Python -'''
