@@ -56,12 +56,20 @@ More
 123456789101112131415161718192021
 '''A very simple and efficient approach in Python -'''
 
-if __name__ == '__main__':
-    students = {}
-    
-    for _ in range(int(input())):
+for _ in range(int(input())):
         name = input()
         score = float(input())
         
         if score not in students:
+            students[score] = [name]
+        else:
+            students[score].append(name)
+    
+    scores_l = sorted(set(students.keys()))
+    
+    sec_low = scores_l[1]
+    res = sorted(students[sec_low])
+    
+    for val in res:
+        print(val)
 
