@@ -103,7 +103,9 @@ Sample Output 1
 
 26.50
 
-
+More
+123456789101112131415161718192021
+'''A very simple and efficient approach in Python -'''
 
 
 if __name__ == '__main__':
